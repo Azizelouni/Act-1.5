@@ -1,17 +1,17 @@
 public class Main {
     public static void main(String[] args) {
-        Livre l1 = new Livre("Le petit prince", "St Exupéry", 10.40f, 50);
-        Livre l2 = new Livre("Contes", "Grimm", 14.40f, 254);
+        Livre l1 = new Livre("Blanche neige", "Grimm", 10.40f, 50);
+        Livre l2 = new Livre("la barbe bleue", "charles perraults", 14.40f, 254);
         l1.Afficher();
         l2.Afficher();
 
-        BD b1 = new BD("Lucky Luke", "Morris", 10.40f, 45, true);
+        BD b1 = new BD("picsou", "duck", 10.40f, 45, true);
         BD b2 = new BD("Tintin", "Herge", 200.40f, 45, false);
         b1.Afficher();
         b2.Afficher();
 
-        Manga m1 = new Manga("One piece", "Eiichiro Oda", 5.40f, 62);
-        Manga m2 = new Manga("Death Note", "Tsugumi Oba", 7.40f, 75);
+        Manga m1 = new Manga("conan", "togomori", 5.40f, 62);
+        Manga m2 = new Manga("captain tsubasa", "Tsubasa", 7.40f, 75);
         m1.Afficher();
         m2.Afficher();
 
